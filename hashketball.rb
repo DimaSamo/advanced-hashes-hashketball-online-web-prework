@@ -31,7 +31,7 @@ def num_points_scored(player)
   game_hash.each do |team, attributes|
     attributes.each do |attribute, value|
       if attribute == :players
-        biding.pry
+        binding.pry
         return value[player][:points]
       end
     end
