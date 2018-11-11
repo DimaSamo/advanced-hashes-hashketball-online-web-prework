@@ -37,3 +37,5 @@ def num_points_scored(player)
     end
   end
 end
+
+num_points_scored("Jeff Adrien")
