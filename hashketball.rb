@@ -30,7 +30,7 @@ end
 def num_points_scored(player)
   game_hash.each do |team, attributes|
     attributes.each do |attribute, value|
-      if attribute == ":players"
+      if attribute == :players
         return attribute[player][:points]
       end
     end
